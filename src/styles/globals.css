@@ -7,3 +7,10 @@
   background-color: #09c;
   border-radius: 10px;
 }
+
+:root,
+html,
+body,
+div#root {
+  height: 100%;
+}

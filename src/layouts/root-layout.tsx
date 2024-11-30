@@ -4,10 +4,12 @@ import { Navbar } from "../components/navbar";
 
 export default function RootLayout() {
   return (
-    <div className="h-screen">
+    <div className="flex h-full flex-col">
       <Navbar />
       {/* children */}
-      <Outlet />
+      <div className="grow">
+        <Outlet />
+      </div>
     </div>
   );
 }
