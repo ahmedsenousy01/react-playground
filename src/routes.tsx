@@ -7,6 +7,7 @@ import AboutPage from "./pages/about-page";
 import ContactPage from "./pages/help/contact-page";
 import FAQPage from "./pages/help/faq-page";
 import HomePage from "./pages/home-page";
+import UsersPage from "./pages/users-page";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "custom/:id",
         element: <CustomIdPage />
+      },
+      {
+        path: "users",
+        element: <UsersPage />
       }
     ]
   }
